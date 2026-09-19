@@ -1,0 +1,22 @@
+---
+name: omni-github-skills
+description: Search, score, scan, and import agent skills from GitHub repositories that contain SKILL.md, CLAUDE.md, .cursorrules, and similar agent skill files. Discover community skills across many tool and provider categories, evaluate relevance with heuristic scoring, check for malware or hardcoded secrets, and install into Hermes, Claude Code, Gemini CLI, or OpenCode agent directories.
+---
+<!-- vendored verbatim from diegosouzapw/OmniRoute: skills/omni-github-skills/SKILL.md -->
+<!-- upstream generates this from src/lib/agentSkills/generator.ts; re-sync instead of editing -->
+
+## Overview
+
+Search, score, scan, and import agent skills from GitHub repositories that contain SKILL.md, CLAUDE.md, .cursorrules, and similar agent skill files. Discover community skills across many tool and provider categories, evaluate relevance with heuristic scoring, check for malware or hardcoded secrets, and install into Hermes, Claude Code, Gemini CLI, or OpenCode agent directories.
+
+## Authentication
+
+All requests require a valid Bearer token or session cookie. Obtain a token via `POST /api/auth/login` or configure `REQUIRE_API_KEY=false` for local development.
+
+## Endpoints
+
+_No endpoints mapped for this area yet._
+
+## Payloads
+
+See the full OpenAPI specification at `GET /api/openapi/spec` or `docs/openapi.yaml` for detailed request/response schemas.
